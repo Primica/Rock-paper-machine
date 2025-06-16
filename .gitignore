@@ -2,3 +2,4 @@
 .venv
 historique_parties.csv
 model.pkl
+visualisations/

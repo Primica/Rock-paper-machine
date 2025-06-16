@@ -38,10 +38,22 @@ Le modèle utilise un Random Forest Classifier avec les caractéristiques suivan
 
 ### Analyse des Données
 
-Le projet inclut un notebook Jupyter (`analyse.ipynb`) qui permet de :
-- Visualiser les tendances de jeu
-- Analyser les performances du modèle
-- Étudier les patterns de jeu du joueur
+Le projet inclut deux outils d'analyse :
+
+1. **Notebook Jupyter** (`analyse.ipynb`) :
+   - Visualisation des tendances de jeu
+   - Analyse des performances du modèle
+   - Étude des patterns de jeu du joueur
+
+2. **Outil de Visualisation du Modèle** (`visualisation_modele.py`) :
+   - Visualisation des 5 premiers arbres de décision
+   - Graphique d'importance des features
+   - Génère des images dans le dossier `visualisations/`
+
+Pour utiliser l'outil de visualisation :
+```bash
+python visualisation_modele.py
+```
 
 ## Prérequis
 
