@@ -52,8 +52,8 @@ Le projet inclut un notebook Jupyter (`analyse.ipynb`) qui permet de :
 
 1. Clonez ce dépôt :
 ```bash
-git clone [URL_DU_REPO]
-cd rock-paper-machine
+git clone https://github.com/Primica/Rock-paper-machine
+cd Rock-paper-machine
 ```
 
 2. Créez un environnement virtuel :
